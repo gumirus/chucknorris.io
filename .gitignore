@@ -1,0 +1,27 @@
+# Игнорировать системные файлы
+.DS_Store
+Thumbs.db
+
+# Игнорировать настройки редактора/IDE
+.vscode/
+.idea/
+
+# Игнорировать кэш и зависимости
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Игнорировать файлы окружения
+.env
+.env.local
+
+# Игнорировать билды и артефакты
+dist/
+build/
+*.tmp
+*.bak
+
+# Игнорировать пользовательские настройки
+*.suo
+*.user
+*.userosscache
